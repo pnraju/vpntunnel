@@ -1,0 +1,13 @@
+
+! Title: Custom Block
+! Description: List for blocking common URLs with excessive DNS queries so they are not forwarded to NextDNS.
+! Version: 1.0.0.0
+! Homepage: 
+! Last modified: 2025-08-15T00:00:00.000Z
+!
+
+||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;
+||cc-api-data.adobe.io^
+||nexus-websocket-a.intercom.io^
+||mobile.events.data.microsoft.com^
