@@ -8,6 +8,13 @@
 
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
 ||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-canary.icloud.com^$dnsrewrite=NXDOMAIN;;
+||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;
+||mask.apple-dns.net^$dnsrewrite=NXDOMAIN;;
+||apple-relay.cloudflare.com^$dnsrewrite=NXDOMAIN;;
+||apple-relay.fastly-edge.com^$dnsrewrite=NXDOMAIN;;
 ||cc-api-data.adobe.io^
 ||nexus-websocket-a.intercom.io^
 ||mobile.events.data.microsoft.com^
